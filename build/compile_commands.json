@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/coding/CSys/build",
+  "command": "/usr/bin/cc -DCSys_EXPORTS -I/home/coding/CSys/include -std=gnu99 -fPIC -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include -pthread -Wall -Wextra -o CMakeFiles/CSys.dir/src/csys.c.o -c /home/coding/CSys/src/csys.c",
+  "file": "/home/coding/CSys/src/csys.c",
+  "output": "CMakeFiles/CSys.dir/src/csys.c.o"
+}
+]

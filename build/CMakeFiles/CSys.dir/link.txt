@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -Wl,--dependency-file=CMakeFiles/CSys.dir/link.d -shared -Wl,-soname,libCSys.so -o libCSys.so CMakeFiles/CSys.dir/src/csys.c.o  -lgobject-2.0 -lglib-2.0

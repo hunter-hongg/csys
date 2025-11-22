@@ -1,0 +1,3 @@
+/home/coding/CSys/build/CMakeFiles/CSys.dir
+/home/coding/CSys/build/CMakeFiles/edit_cache.dir
+/home/coding/CSys/build/CMakeFiles/rebuild_cache.dir
