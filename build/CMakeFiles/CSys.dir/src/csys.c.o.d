@@ -1,6 +1,5 @@
 CMakeFiles/CSys.dir/src/csys.c.o: /home/coding/CSys/src/csys.c \
- /usr/include/stdc-predef.h /home/coding/CSys/include/cerror.h \
- /home/coding/CSys/include/csys.h /usr/include/glib-2.0/glib.h \
+ /usr/include/stdc-predef.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
  /usr/include/glib-2.0/glib/gmacros.h \
@@ -159,6 +158,7 @@ CMakeFiles/CSys.dir/src/csys.c.o: /home/coding/CSys/src/csys.c \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/glib-2.0/glib/glib-autocleanups.h \
+ /home/coding/CSys/include/csys.h /home/coding/CSys/include/cerror.h \
  /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h /usr/include/fcntl.h \

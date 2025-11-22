@@ -21,6 +21,16 @@ struct stat*  CSys_dir_stat                   (const char*);           // 获取
 
 #define CSys_INCLUDE &
 
+#define CSys_OWNER_R S_IRUSR
+#define CSys_OWNER_W S_IWUSR
+#define CSys_OWNER_X S_IXUSR
+#define CSys_GROUP_R S_IRGRP
+#define CSys_GROUP_W S_IWGRP
+#define CSys_GROUP_X S_IXGRP
+#define CSys_OTHER_R S_IROTH
+#define CSys_OTHER_W S_IWOTH
+#define CSys_OTHER_X S_IXOTH
+
 #ifdef __cplusplus
 }
 #endif

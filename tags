@@ -145,7 +145,16 @@ CSys	CMakeLists.txt	/^add_library(CSys SHARED ${SRC_FILES})$/;"	t
 CSys	README.md	/^# CSys$/;"	c
 CSys	build/Makefile	/^CSys: cmake_check_build_system$/;"	t
 CSys/fast	build/Makefile	/^CSys\/fast:$/;"	t
+CSys_GROUP_R	include/csys.h	/^#define CSys_GROUP_R /;"	d
+CSys_GROUP_W	include/csys.h	/^#define CSys_GROUP_W /;"	d
+CSys_GROUP_X	include/csys.h	/^#define CSys_GROUP_X /;"	d
 CSys_INCLUDE	include/csys.h	/^#define CSys_INCLUDE /;"	d
+CSys_OTHER_R	include/csys.h	/^#define CSys_OTHER_R /;"	d
+CSys_OTHER_W	include/csys.h	/^#define CSys_OTHER_W /;"	d
+CSys_OTHER_X	include/csys.h	/^#define CSys_OTHER_X /;"	d
+CSys_OWNER_R	include/csys.h	/^#define CSys_OWNER_R /;"	d
+CSys_OWNER_W	include/csys.h	/^#define CSys_OWNER_W /;"	d
+CSys_OWNER_X	include/csys.h	/^#define CSys_OWNER_X /;"	d
 CSys_dir_chmod	src/csys.c	/^void CSys_dir_chmod(const char *dirname, mode_t mode) {$/;"	f	typeref:typename:void
 CSys_dir_delete	src/csys.c	/^CError CSys_dir_delete(const char *dirname) {$/;"	f	typeref:typename:CError
 CSys_dir_new	src/csys.c	/^CError CSys_dir_new(const char *dirname) {$/;"	f	typeref:typename:CError
@@ -221,6 +230,7 @@ info_version_internal	build/CMakeFiles/3.31.6/CompilerIdC/CMakeCCompilerId.c	/^c
 info_version_internal	build/CMakeFiles/3.31.6/CompilerIdC/CMakeCCompilerId.c	/^char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INT/;"	v	typeref:typename:char const *
 main	build/CMakeFiles/3.31.6/CompilerIdC/CMakeCCompilerId.c	/^int main(argc, argv) int argc; char *argv[];$/;"	f
 main	build/CMakeFiles/3.31.6/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f	typeref:typename:void
+main	src/test.c	/^int main() {$/;"	f	typeref:typename:int
 output	build/compile_commands.json	/^  "output": "CMakeFiles\/CSys.dir\/src\/csys.c.o"$/;"	s	object:0
 output	compile_commands.json	/^  "output": "CMakeFiles\/CSys.dir\/src\/csys.c.o"$/;"	s	object:0
 preinstall	build/Makefile	/^preinstall: all$/;"	t
@@ -234,6 +244,7 @@ src/csys.c.s	build/Makefile	/^src\/csys.c.s:$/;"	t
 src/csys.i	build/Makefile	/^src\/csys.i: src\/csys.c.i$/;"	t
 src/csys.o	build/Makefile	/^src\/csys.o: src\/csys.c.o$/;"	t
 src/csys.s	build/Makefile	/^src\/csys.s: src\/csys.c.s$/;"	t
+test	Makefile	/^test: $/;"	t
 volatile	build/CMakeFiles/3.31.6/CompilerIdC/CMakeCCompilerId.c	/^# define volatile$/;"	d	file:
 what	include/cerror.h	/^    const char*    what;$/;"	m	struct:_CError	typeref:typename:const char *
 安装方法	README.md	/^## 安装方法$/;"	s	chapter:CSys
